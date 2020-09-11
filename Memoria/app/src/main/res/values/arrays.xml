@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dificuldade_jogo">
+        <item>(5 pares) muito fácil</item>
+        <item>(10 pares) fácil</item>
+        <item>(15 pares) normal</item>
+        <item>(20 pares) difícil</item>
+        <item>(25 pares) muito difícil</item>
+    </string-array>
+    <string-array name="valor_dificuldade">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+    </string-array>
+</resources>

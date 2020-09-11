@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:entries="@array/dificuldade_jogo"
+        android:entryValues="@array/valor_dificuldade"
+        android:key="prefPares"
+        android:summary="@string/desc_num_pares"
+        android:persistent="true"
+        android:title="@string/num_pares"
+        android:defaultValue="15"/>
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="prefAudio"
+        android:summary="@string/desc_som_jogo"
+        android:title="@string/som_jogo" />
+
+</PreferenceScreen>

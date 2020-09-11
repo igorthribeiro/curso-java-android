@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_lista_contato"
+            android:icon="@drawable/baseline_contacts_black_24"
+            android:title="@string/menu_contato" />
+        <item
+            android:id="@+id/nav_lista_compromisso"
+            android:icon="@drawable/baseline_insert_invitation_black_24"
+            android:title="@string/menu_compromisso" />
+    </group>
+</menu>

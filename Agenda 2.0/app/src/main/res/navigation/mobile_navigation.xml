@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_lista_contato">
+
+    <fragment
+        android:id="@+id/nav_lista_contato"
+        android:name="br.com.igordev.agenda.ui.lista.contato.ListaContatoFragment"
+        android:label="@string/menu_contato"
+        tools:layout="@layout/lista_contato_fragment" >
+        <action
+            android:id="@+id/action_nav_lista_contato_to_nav_edita_contato"
+            app:destination="@id/nav_edita_contato" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_edita_contato"
+        android:name="br.com.igordev.agenda.ui.edita.contato.EditaContatoFragment"
+        android:label="@string/menu_contato"
+        tools:layout="@layout/edita_contato_fragment" >
+        <action
+            android:id="@+id/action_nav_edita_contato_to_nav_lista_contato"
+            app:destination="@id/nav_lista_contato" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_lista_compromisso"
+        android:name="br.com.igordev.agenda.ui.lista.compromisso.ListaCompromissoFragment"
+        android:label="@string/menu_compromisso"
+        tools:layout="@layout/lista_compromisso_fragment" >
+        <action
+            android:id="@+id/action_nav_lista_compromisso_to_nav_edita_compromisso"
+            app:destination="@id/nav_edita_compromisso" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_edita_compromisso"
+        android:name="br.com.igordev.agenda.ui.edita.compromisso.EditaCompromissoFragment"
+        android:label="@string/menu_compromisso"
+        tools:layout="@layout/edita_compromisso_fragment" >
+        <action
+            android:id="@+id/action_nav_edita_compromisso_to_nav_lista_compromisso"
+            app:destination="@id/nav_lista_compromisso" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="br.com.igordev.agenda.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="br.com.igordev.agenda.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="br.com.igordev.agenda.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+</navigation>

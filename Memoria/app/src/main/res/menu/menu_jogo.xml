@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menuJogo"
+        android:title="@string/menu_jogo">
+        <menu>
+            <item android:id="@+id/jogoConfigura"
+                android:icon="@drawable/baseline_settings_black_24"
+                android:title="@string/menu_configurar" />
+            <item android:id="@+id/jogoReinicia"
+                android:icon="@drawable/baseline_loop_black_24"
+                android:title="@string/menu_reiniciar" />
+        </menu>
+    </item>
+    <item android:id="@+id/menuMusica"
+        android:title="@string/menu_musica">
+        <menu>
+            <item android:id="@+id/paraMusica"
+                android:icon="@drawable/baseline_pause_circle_filled_black_24"
+                android:title="@string/menu_parar_musica" />
+            <item android:id="@+id/tocaMusica"
+                android:icon="@drawable/baseline_play_circle_filled_black_24"
+                android:title="@string/menu_tocar_musica" />
+        </menu>
+    </item>
+</menu>
