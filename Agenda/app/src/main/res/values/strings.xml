@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Agenda</string>
+    <string name="navigation_drawer_open">Abrir menu lateral</string>
+    <string name="navigation_drawer_close">Fechar menu lateral</string>
+    <string name="nav_header_title">Agenda</string>
+    <string name="nav_header_subtitle">Contatos e compromissos</string>
+    <string name="nav_header_desc">Agenda</string>
+    <string name="menu_contatos">Contatos</string>
+    <string name="menu_compromissos">Compromissos</string>
+    <string name="contato_nome">Nome</string>
+    <string name="contato_email">e-mail</string>
+    <string name="contato_telefone">Telefone</string>
+    <string name="contato_cep">Cep</string>
+    <string name="contato_endereco">Endereço</string>
+    <string name="erro_cadastro_contato">Preencha um nome para o contato.</string>
+    <string name="erro_cadastro_compromisso">Preencha o resumo para o compromisso.</string>
+    <string name="sucesso_cadastro">Dados gravados.</string>
+    <string name="erro_servico">Erro ao obter o CEP. Por favor, tente novamente.</string>
+    <string name="confirma_excluir">Confirma a exclusão?</string>
+    <string name="titulo_dialolgo_excluir">Excluir</string>
+    <string name="texto_curto">Resumo</string>
+    <string name="texto_longo">Descrição detalhada</string>
+    <string name="data_compromisso">Data</string>
+    <string name="hora_compromisso">Hora</string>
+    <string name="mensagem_enviada">Mensagem enviada.</string>
+    <string name="title_menu">Agenda</string>
+</resources>

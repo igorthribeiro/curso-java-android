@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="entities">
+        <item>agenda.igordev.com.br.agenda.modelo.Compromisso</item>
+    </string-array>
+</resources>

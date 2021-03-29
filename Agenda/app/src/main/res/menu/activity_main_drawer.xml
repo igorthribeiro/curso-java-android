@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="@string/title_menu">
+        <menu>
+            <item
+                android:id="@+id/nav_contato"
+                android:icon="@drawable/baseline_contacts_black_24"
+                android:title="@string/menu_contatos" />
+            <item
+                android:id="@+id/nav_tarefa"
+                android:icon="@drawable/baseline_insert_invitation_black_24"
+                android:title="@string/menu_compromissos" />
+        </menu>
+    </item>
+
+</menu>
