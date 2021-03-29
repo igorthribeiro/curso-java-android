@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/opcao_mes"
+        android:title="@string/menu_mes"
+        android:icon="@drawable/ic_event_white_24dp"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/opcao_graph"
+        android:title="@string/menu_mes"
+        android:icon="@drawable/ic_show_chart_white_24dp"
+        app:showAsAction="always" >
+        <menu>
+            <item android:id="@+id/graph_r"
+                android:title="@string/categoria_lanc_receita"/>
+            <item android:id="@+id/graph_d"
+                android:title="@string/categoria_lanc_despesa"/>
+        </menu>
+    </item>
+    <item android:id="@+id/opcao_set"
+        android:title="@string/menu_set"
+        android:icon="@drawable/ic_settings_white_24dp"
+        app:showAsAction="never"/>
+    <item android:id="@+id/opcao_about"
+        android:title="@string/about_text"
+        android:icon="@drawable/ic_help_white_24dp"
+        app:showAsAction="never" />
+</menu>

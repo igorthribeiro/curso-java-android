@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/sobre_image_size"
+                android:background="@android:color/white"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/about_app_curso" />
+
+            <TextView
+                android:id="@+id/textViewLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:text="@string/about_label"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/sobre_url_size"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/textViewSite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/sobre_url_margin"
+                android:autoLink="web"
+                android:text="@string/url_site"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/sobre_url_size"
+                android:textStyle="normal|italic" />
+
+        </FrameLayout>
+
+    </ScrollView>
+
+</LinearLayout>

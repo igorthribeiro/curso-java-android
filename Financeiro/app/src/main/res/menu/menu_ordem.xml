@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/menu_ordena" android:checkableBehavior="single">
+        <item android:id="@+id/ordem_valor" android:title="@string/menu_valor"
+            android:checkable="true"/>
+        <item android:id="@+id/ordem_descricao" android:title="@string/menu_descricao"
+            android:checkable="true"/>
+        <item android:id="@+id/ordem_vencimento" android:title="@string/menu_vencimento"
+            android:checkable="true"
+            android:checked="true" />
+    </group>
+</menu>

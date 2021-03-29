@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categoria_icones">
+        <item>Travel</item>
+        <item>Miscellaneous</item>
+        <item>Gift</item>
+        <item>Car</item>
+        <item>Bike</item>
+        <item>Office</item>
+        <item>Books</item>
+        <item>Games</item>
+        <item>Feed</item>
+        <item>Home</item>
+        <item>Health</item>
+        <item>Money</item>
+        <item>Card</item>
+        <item>Clothes</item>
+        <item>Sport</item>
+        <item>Education</item>
+        <item>User</item>
+        <item>Notebook</item>
+        <item>Cat</item>
+        <item>Dog</item>
+    </string-array>
+    <string-array name="categoria_opcoes">
+        <item>Edit</item>
+        <item>Delete</item>
+        <item>View entries</item>
+    </string-array>
+    <string-array name="lancamento_opcoes">
+        <item>Edit</item>
+        <item>Delete</item>
+        <item>Pay (exact value)</item>
+        <item>Undo payment</item>
+    </string-array>
+    <string-array name="meses">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+    <string-array name="dia_fechamento">
+        <item> -01- </item>
+        <item> -05- </item>
+        <item> -10- </item>
+        <item> -15- </item>
+        <item> -20- </item>
+        <item> -25- </item>
+    </string-array>
+    <string-array name="val_dia_fechamento">
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+    </string-array>
+</resources>

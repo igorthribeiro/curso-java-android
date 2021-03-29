@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="velocidade_animacao">500</integer>
+    <integer name="velocidade_animacao_graph">1500</integer>
+</resources>

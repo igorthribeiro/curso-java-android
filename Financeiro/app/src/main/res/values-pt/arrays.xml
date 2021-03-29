@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categoria_icones">
+        <item>Viagem</item>
+        <item>Diversos</item>
+        <item>Presente</item>
+        <item>Carro</item>
+        <item>Moto</item>
+        <item>Escritorio</item>
+        <item>Livros</item>
+        <item>Games</item>
+        <item>Alimentação</item>
+        <item>Casa</item>
+        <item>Saúde</item>
+        <item>Dinheiro</item>
+        <item>Cartão</item>
+        <item>Roupas</item>
+        <item>Esporte</item>
+        <item>Educação</item>
+        <item>Usuario</item>
+        <item>Computador</item>
+        <item>Gato</item>
+        <item>Cachorro</item>
+    </string-array>
+    <string-array name="categoria_opcoes">
+        <item>Editar</item>
+        <item>Excluir</item>
+        <item>Ver Lançamentos</item>
+    </string-array>
+    <string-array name="lancamento_opcoes">
+        <item>Editar</item>
+        <item>Excluir</item>
+        <item>Liquidar (exato)</item>
+        <item>Estornar pagamento</item>
+    </string-array>
+    <string-array name="meses">
+        <item>Janeiro</item>
+        <item>Fevereiro</item>
+        <item>Março</item>
+        <item>Abril</item>
+        <item>Maio</item>
+        <item>Junho</item>
+        <item>Julho</item>
+        <item>Agosto</item>
+        <item>Setembro</item>
+        <item>Outubro</item>
+        <item>Novembro</item>
+        <item>Dezembro</item>
+    </string-array>
+    <string-array name="dia_fechamento">
+        <item> -01- </item>
+        <item> -05- </item>
+        <item> -10- </item>
+        <item> -15- </item>
+        <item> -20- </item>
+        <item> -25- </item>
+    </string-array>
+    <string-array name="val_dia_fechamento">
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+    </string-array>
+</resources>

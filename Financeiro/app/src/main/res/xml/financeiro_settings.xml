@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/dia_fechamento"
+        android:entryValues="@array/val_dia_fechamento"
+        android:key="settings_dia"
+        android:summary="@string/sets_dia_summary"
+        android:title="@string/sets_dia" />
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="settings_notificacao"
+        android:summary="@string/sets_notificacao_summary"
+        android:title="@string/sets_notificacao" />
+</PreferenceScreen>
